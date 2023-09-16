@@ -109,7 +109,7 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("\"Make your move and claim your spot on the Tic Tac Toe grid!\"");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(210, 80, 570, 44);
+        jLabel3.setBounds(210, 100, 570, 44);
 
         jPanel3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
@@ -117,15 +117,15 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 140, Short.MAX_VALUE)
+            .addGap(0, 230, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 120, Short.MAX_VALUE)
+            .addGap(0, 100, Short.MAX_VALUE)
         );
 
         jPanel1.add(jPanel3);
-        jPanel3.setBounds(760, 390, 140, 120);
+        jPanel3.setBounds(10, 10, 230, 100);
 
         jButton1.setFont(new java.awt.Font("Cantarell Extra Bold", 1, 70)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 0, 0));
